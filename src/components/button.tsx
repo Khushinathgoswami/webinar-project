@@ -1,4 +1,7 @@
-import styles from './button.module.css'
-export default function button() {
-  return <h2 className='center'>This is Home Component</h2>;
+import styles from './Button.module.css'
+
+export default function Button() {
+  return (
+    <a className={styles.button}>Register Now</a>
+  );
 }
