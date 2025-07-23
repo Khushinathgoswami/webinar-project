@@ -1,5 +1,5 @@
 // try.tsx
-import styles from './try.module.css';
+import styles from './Try.module.css';
 
 export default function TrySection() {
   return (
