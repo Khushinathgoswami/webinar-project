@@ -1,18 +1,54 @@
 
-.background{
-    background-color: rgba(17, 28, 38, 1);
-}
-.bwhite{
-    background-color: white;
-}
-.m30{
-    margin-top: 30px;
-}
+/*-----display------*/
 .display{
     display: flex;
 }
 .jcsb{
      justify-content: space-between;
+}
+.jc{
+    justify-content: center;
+}
+.al{
+    align-items: center;
+}
+.tac{
+text-align: center;
+}
+.fcl{
+    flex-direction: column;
+}
+.fdr{
+    flex-direction: row;
+}
+.db{
+    display: block;
+}
+.dib{
+    display: inline-block;
+}
+
+
+.g1{
+    gap: 1;
+}
+.g2{
+    gap: 2;
+}
+.g3{
+    gap: 3;
+}
+.g4{
+    gap: 4;
+}
+.g5{
+    gap: 5;
+}
+.g10{
+    gap: 10;
+}
+.g15{
+    gap: 15;
 }
 .g20{
     gap: 20px;
@@ -20,16 +56,30 @@
 .g40{
     gap: 40px;
 }
+.g68{
+    gap: 68px;
+}
 .g80{
     gap: 80px;
 }
-.al{
-    align-items: center;
-   
+
+
+/*----background-color--*/
+.background{
+    background-color: rgba(17, 28, 38, 1);
 }
-.tac{
-text-align: center;
+.bwhite{
+    background-color: white;
 }
+.bc1DE9B6{
+    background-color: #1DE9B6;
+}
+.bc111c26{
+    background-color: #111C26;
+}
+
+/*----color ----*/
+
 .c1DE9B6{
     color: #32d6ad;
 }
@@ -37,103 +87,190 @@ text-align: center;
 .color{
     color: white;
 }
-.font{
-    font-size: 80px;
+.c111C26{
+    color: #111C26;
 }
-.f48{
-    font-size: 48px;
+.black{
+    color: #000;
 }
-.fw700{
-    font-weight: 700;
+.c1ce9b5{
+    color:#1ce9b5;
 }
-.l1{
-    line-height: 1.2;
+
+/*----font-size ---*/
+.f1{
+    font-size: 1;
 }
-.span{
-    color: rgba(255, 255, 255, 1);
+.f2{
+    font-size: 2px;
+}
+.f3{
+    font-size: 3px;
+}
+.f12{
+    font-size: 12px;
+}
+.f16{
+    font-size: 16px;
 }
 .f20{
     font-size: 20px;
 }
+.f22{
+    font-size: 22px;
+}
+.f26{
+    font-size: 26px;
+}
+.f30{
+    font-size: 30px;
+}
+.f36{
+    font-size: 36px;
+}
+.f48{
+    font-size: 48px;
+}
+.f50{
+    font-size: 50px;
+}
+.f80{
+    font-size: 80px;
+}
+.f100{
+    font-size: 100px;
+}
+/*----font-weight ----*/
+.fw500{
+    font-weight: 500;
+}
+.fw600{
+    font-weight: 600;
+}
+
+.fw700{
+    font-weight: 700;
+}
+.fw900{
+    font-weight: 900;
+}
+.fw400{
+    font-weight: 400;
+}
+
+/*-----margin ----*/
+
+.m30{
+    margin-top: 30px;
+}
+.mb5{
+    margin-bottom: 5px;
+}
+.mb7{
+    margin-bottom: 7px;
+}
 .mb60{
     margin-bottom: 60px;
 }
-
-.fcl{
-    flex-direction: column;
+.mb20{
+    margin-bottom: 20px;
 }
+.mb42{
+    margin-bottom: 42px;
+}
+.mb58{
+    margin-bottom: 58px;
+}
+.mb80{
+    margin-bottom: 80px;
+}
+
+/*-----padding------*/
+
 .pt40{
     padding-top: 40px;
 }
 .pb40{
     padding-bottom: 80px;
 }
-.mb20{
-    margin-bottom: 20px;
+.pb60{
+    padding-bottom: 60px;
 }
+
 .pl40{
     padding-left: 50px;
 }
 .pr40{
     padding-right: 50px;
 }
+
+
+/*----line-height-----*/
+.l1{
+    line-height: 1;
+}
+.lh1{
+    line-height: 1.2;
+}
+.l3{
+    line-height: 1.375;
+}
+.l22{
+    line-height: 22px;
+}
+
+
+.span{
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+/*---width---*/
+
+
+.w100{
+    width: 100px;
+}
+
+.w504{
+    width: 504px;
+}
+/*---height --*/
+.h100{
+    height: 100px;
+}
 .box{
-    height: 286px;
+    height: 386px;
     width: 478px;
     border: 1px solid black;
     border-radius: 20px;
 }
 .box2{
     width: 1px;
-    height: 286px;
+    height: 386px;
     background-color: gray;
-}
-.w286{
-    width: 478px;
 }
 .box3{
    height: 20px;
     width: 36px;
     border: 1px solid black;
     border-radius: 4px;
-} 
-.c111C26{
-    color: #111C26;
 }
-.f22{
-    font-size: 22px;
-}
-.fw500{
-    font-weight: 500;
-}
-.f16{
-    font-size: 16px;
-}
-.lh1{
-    line-height: 1.2;
-}
-.bc111C26{
-    background-color: #111C26;
-}
-.f36{
-    font-size: 36px;
-}
-.bc1DE9B6{
-    background-color: #1DE9B6;
-}
-
 .box4{
    color: white;
     background-color: #1DE9B6;
-    padding: 40px;
+    padding: 22px 21px 23px 20px;
     border-radius: 20px;
     box-shadow: 0 0 15px 0 rgba(29, 233, 182, 1);
-    text-align: center;
-    width: 120px;
+    
 }
-.db{
-    display: block;
+
+/*----gradient-color---*/
+.text {
+  font-size: 48px;
+  background: linear-gradient(to right, #000, #1DE9B6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.jc{
-    justify-content: center;
-}
+
