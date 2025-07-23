@@ -59,7 +59,7 @@ export default function HomePage() {
 
   </div>
  </main>
-<div className={`${styles.bc111c26} ${styles.tac} ${styles.pt40}  ${styles.mb80}`}>
+<div className={`${styles.bc111c26} ${styles.tac} ${styles.pt40}`}>
   <div className={`${styles.fw900} ${styles.f36} ${styles.color} ${styles.mb42}`}>Webinar Start In </div>
   <div className={`${styles.display} ${styles.g68} ${styles.jc} `}>
     <div className={styles.mb58}>
