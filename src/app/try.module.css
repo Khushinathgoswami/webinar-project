@@ -1,0 +1,71 @@
+/* try.module.css */
+.wrapper {
+  background-color: #0a0f1c;
+  color: white;
+  padding: 60px 20px 20px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.registerSection {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.registerSection p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.highlight {
+  color: #1de9b6;
+  font-weight: bold;
+}
+
+.registerBtn {
+  background: linear-gradient(to right, #1de9b6, #00bfa5);
+  color: black;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 0 20px #1de9b6;
+  transition: transform 0.2s ease;
+}
+
+.registerBtn:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  border-top: 1px solid #1a1a1a;
+  margin-top: 40px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+
+.footer p {
+  margin: 0;
+  color: #cccccc;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+}
+
+.links a {
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #1de9b6;
+}
