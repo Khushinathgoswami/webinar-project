@@ -1,5 +1,4 @@
 
-import Button from "@/components/Button"
 import styles from "./page.module.css"
 export default function HomePage() {
   return (
@@ -10,7 +9,7 @@ export default function HomePage() {
           <h1 className={styles.color}>Vidyamath.com</h1>
         </div>
         <div className="right">
-          <Button/>
+          
         </div>
         
       </div>
@@ -26,7 +25,7 @@ export default function HomePage() {
         </div>
        </div>
     
-        <Button/>
+        
      
        </header>
  <main>
