@@ -1,8 +1,5 @@
 
-<<<<<<< HEAD
-=======
 import Button from "@/components/Button";
->>>>>>> 2ed57761d636e2e8bbc0d059b508ad1dcfc34a8f
 import styles from "./page.module.css"
 export default function HomePage() {
   return (
@@ -17,11 +14,7 @@ export default function HomePage() {
           <h4 className={`${styles.f12} ${styles.fw40} ${styles.color}`}>Classes By Professionals</h4>
         </div>
         <div className="right">
-<<<<<<< HEAD
-          
-=======
         <Button/>
->>>>>>> 2ed57761d636e2e8bbc0d059b508ad1dcfc34a8f
         </div>
         
       </div>
@@ -36,13 +29,8 @@ export default function HomePage() {
           8:00 PM
         </div>
        </div>
-<<<<<<< HEAD
-    
-        
-=======
     <Button/>
 
->>>>>>> 2ed57761d636e2e8bbc0d059b508ad1dcfc34a8f
      
        </header>
  <main>
@@ -71,7 +59,7 @@ export default function HomePage() {
 
   </div>
  </main>
-<div className={`${styles.bc111c26} ${styles.tac} ${styles.pt40}  ${styles.mb80}`}>
+<div className={`${styles.bc111c26} ${styles.tac} ${styles.pt40}`}>
   <div className={`${styles.fw900} ${styles.f36} ${styles.color} ${styles.mb42}`}>Webinar Start In </div>
   <div className={`${styles.display} ${styles.g68} ${styles.jc} `}>
     <div className={styles.mb58}>
@@ -98,4 +86,4 @@ export default function HomePage() {
    
   );
   
-  }
+}
