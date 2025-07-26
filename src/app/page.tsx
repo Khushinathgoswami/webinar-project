@@ -36,7 +36,7 @@ export default function HomePage() {
  <main>
   <div className={`${styles.pl40} ${styles.pr40} ${styles.mb60}`}>
     <div className={`${styles.tac} ${styles.f48} ${styles.fw900} ${styles.mb60} ${styles.l3}`}>
-       <h1>Why <span className={styles.text}> You Should </span><br/> Join  <span className={styles.text}>This Webinar?</span></h1>
+       <h1>Why <span className={`${styles.blinear} ${styles.wbkit} ${styles.f48}`}> You Should </span><br/> Join  <span className={`${styles.blinear} ${styles.wbkit} ${styles.f48}`}>This Webinar?</span></h1>
     </div>
     <div className={`${styles.display} ${styles.g80}`}>
       <div className={styles.box}></div>
@@ -59,30 +59,34 @@ export default function HomePage() {
 
   </div>
  </main>
-<div className={`${styles.bc111c26} ${styles.tac} ${styles.pt40}`}>
+<div className={`${styles.bc111c26} ${styles.tac} ${styles.pt40} ${styles.mb100}`}>
   <div className={`${styles.fw900} ${styles.f36} ${styles.color} ${styles.mb42}`}>Webinar Start In </div>
   <div className={`${styles.display} ${styles.g68} ${styles.jc} `}>
     <div className={styles.mb58}>
-      <p className={`${styles.box4} ${styles.mb20} ${styles.f50} ${styles.w100} ${styles.h100}`} >02</p>
+      <p className={`${styles.box4} ${styles.mb20} ${styles.f50} ${styles.w100} ${styles.h100} ${styles.l55}`} >02</p>
     <h5 className={`${styles.color} ${styles.f20}`}>Days</h5>
     </div>  
    <div className="heading">
-      <p className={`${styles.box4} ${styles.mb20} ${styles.f50} ${styles.w100} ${styles.h100}`} >12</p>
+      <p className={`${styles.box4} ${styles.mb20} ${styles.f50} ${styles.w100} ${styles.h100} ${styles.l55}`} >12</p>
     <h5 className={`${styles.color} ${styles.f20}`}>Hours</h5>
     </div>
     <div className="heading">
-      <p className={`${styles.box4} ${styles.mb20} ${styles.f50} ${styles.w100} ${styles.h100}`} >45</p>
+      <p className={`${styles.box4} ${styles.mb20} ${styles.f50} ${styles.w100} ${styles.h100} ${styles.l55}`} >45</p>
     <h5 className={`${styles.color} ${styles.f20}`}>Minutes</h5>
     </div>
      <div className="heading">
-      <p className={`${styles.box4} ${styles.mb20} ${styles.f50} ${styles.w100} ${styles.h100}`} >54</p>
+      <p className={`${styles.box4} ${styles.mb20} ${styles.f50} ${styles.w100} ${styles.h100} ${styles.l55}`} >54</p>
     <h5 className={`${styles.color} ${styles.f20}`}>Seconds</h5>
     </div>
 
   </div>
 </div>
-    </section>
 
+
+ 
+
+      
+ </section>
    
   );
   
