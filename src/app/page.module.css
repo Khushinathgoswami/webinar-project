@@ -325,8 +325,7 @@ border-left: 2px solid #ccc;
 .box{
     height: 386px;
     width: 478px;
-    border: 1px solid black;
-    border-radius: 20px;
+  
 }
 .box2{
     width: 1px;
@@ -342,9 +341,11 @@ border-left: 2px solid #ccc;
 .box4{
    color: white;
     background-color: #1DE9B6;
-    padding: 22px 20px 23px ;
+    padding: 15px 20px 23px 21px;
     border-radius: 20px;
     box-shadow: 0 0 15px 0 rgba(29, 233, 182, 1);
+    width: 100px;
+    height: 100px;
     
 }
 

@@ -1,7 +1,8 @@
 
 import Button from "@/components/Button";
 import styles from "./page.module.css"
-import webinar from "@/components/webinar";
+import Schedule from "@/components/Schedule";
+import Image from "next/image";
 export default function HomePage() {
   return (
     <section >
@@ -37,13 +38,24 @@ export default function HomePage() {
  <main>
   <div className={`${styles.pl40} ${styles.pr40} ${styles.mb60}`}>
     <div className={`${styles.tac} ${styles.f48} ${styles.fw900} ${styles.mb60} ${styles.l3}`}>
-       <h1>Why <span className={styles.text}> You Should </span><br/> Join  <span className={styles.text}>This Webinar?</span></h1>
+       <h1>Why <span className={`${styles.text} ${styles.blinear} ${styles.wbkit}`}> You Should </span><br/> Join  <span className={`${styles.text} ${styles.blinear} ${styles.wbkit}`}>This Webinar?</span></h1>
     </div>
     <div className={`${styles.display} ${styles.g80}`}>
-      <div className={styles.box}></div>
-      <div className={styles.box2}></div>
+      <div className={styles.box}>
+      <Image
+    src="/images/webinar.jpg"
+    alt="Webinar Team"
+    width={500}
+    height={300}
+    className="rounded-xl object-cover w-full h-full"
+  />
+      </div>
+      <div className={styles.box2}>
+     
+      </div>
       <div className={`${styles.w504} ${styles.display} ${styles.g40} ${styles.fcl}`}>
         <div className="content">
+          
           <h1 className={`${styles.c111C26} ${styles.f22} ${styles.fw600} ${styles.mb7}`}>What is Artificial Intelligence? </h1>
           <p className={` ${styles.f16} ${styles.lh1} ${styles.l22}`}>I learned that AI is a technology that allows machines to simulate human thinking, like learning, problem-solving, and decision-making.</p>
         </div>
@@ -53,14 +65,14 @@ export default function HomePage() {
         </div>
         <div className="content">
           <h1 className={`${styles.c111C26} ${styles.f22} ${styles.fw600} ${styles.mb7}`}>How AI/ML is Used in Real Life </h1>
-          <p className={` ${styles.f16} ${styles.lh1} ${styles.l22}`}>I learned that AI is a technology that allows machines to simulate human thinking, like learning, problem-solving, and decision-making.</p>
+          <p className={` ${styles.f16} ${styles.lh1} ${styles.l22}`}>The webinar showed examples like voice assistants, recommendation systems (like Netflix).</p>
         </div>
       </div>
     </div>
 
   </div>
  </main>
-<div className={`${styles.bc111c26} ${styles.tac} ${styles.pt40}`}>
+<div className={`${styles.bc111c26} ${styles.tac} ${styles.pt40} ${styles.mb100}`}>
   <div className={`${styles.fw900} ${styles.f36} ${styles.color} ${styles.mb42}`}>Webinar Start In </div>
   <div className={`${styles.display} ${styles.g68} ${styles.jc} `}>
     <div className={styles.mb58}>
@@ -82,7 +94,7 @@ export default function HomePage() {
 
   </div>
 </div>
-<webinar/>
+<Schedule/>
     </section>
 
 
