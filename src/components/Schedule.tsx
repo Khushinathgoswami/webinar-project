@@ -12,31 +12,31 @@ export default function WebinarPage() {
   ];
 
   return (
-    <div className={styles.webinarPage}>
+    <div className={`${styles.webinarPage} ${styles.fdc} ${styles.w100}`}>
       {/* Left Section */}
       <div className={styles.webinarLeft}>
-        <h1 className={styles.webinarTitle}>
+        <h1 className={`${styles.webinarTitle} ${styles.f35}`}>
           Webinar Schedule
         </h1>
-        <p className={`${styles.webinarParagraph} ${styles.mb30}`}>
+        <p className={`${styles.webinarParagraph} ${styles.mb30} ${styles.f14} ${styles.l26} ${styles.w400}`}>
           This schedule provides a clear overview of the key sessions and topics covered during the webinar.
         </p>
-        <p className={`${styles.webinarParagraph} ${styles.mb44}`}>
+        <p className={`${styles.webinarParagraph} ${styles.mb44} ${styles.f14} ${styles.l26} ${styles.w400}`}>
           It outlines the flow of the event, including the introduction, main learning modules, interactive discussions,
           and Q&A segments. Each part is designed to help participants gain a better understanding.
         </p>
-        <button className={styles.webinarButton}>Register Now</button>
+        <button className={`${styles.webinarButton} ${styles.dn}`}>Register Now</button>
       </div>
 
       {/* Right Section */}
-      <div className={styles.webinarRight}>
+      <div className={`${styles.webinarRight}`}>
         {schedule.map((item, index) => (
           <div key={index} className={styles.scheduleItem}>
             <div className={styles.timePill}>{item.time}</div>
             <div className="flex-1">
-              <div className={styles.scheduleTitle}>{item.title}</div>
+              <div className={`${styles.scheduleTitle} ${styles.f20}`}>{item.title}</div>
               {(item.title.includes("Topic") || item.title.includes("Q&A")) && (
-                <p className={`${styles.scheduleDescription} ${styles.w400}`} >
+                <p className={`${styles.scheduleDescription} ${styles.w400} ${styles.f14}`} >
                   The webinar showed examples like voice assistants, recommendation systems (like Netflix).
                 </p>
               )}

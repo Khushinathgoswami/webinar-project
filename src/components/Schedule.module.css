@@ -100,3 +100,39 @@
  
   font-weight: 400;
 }
+
+@media (max-width: 640px){
+  .fdc{
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 40px;
+  }
+  .w100{
+    max-width: 100%;
+    width: 100%;
+  }
+   .f35{
+        font-size: 35px;
+    }
+    .f14{
+      font-size: 14px;
+    }
+    .f20{
+      font-size: 18px;
+    }
+    .l26{
+      line-height: 26px;
+    }
+    .w400{
+      width: 400px;
+    }
+    .dn{
+      display: none;
+    }
+    .ac{
+      align-items: center;
+    }
+    
+}
+
